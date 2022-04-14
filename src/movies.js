@@ -8,11 +8,11 @@ function getAllDirectors() {
   let directors = movies.map((eachMovies) => {
     return eachMovies.director;
   });
-  let foundDirector = directors.find( ( eachDirector ) => {
-    if ( eachDirector.director === eachDirector.director)
-    return true;
-  })
-  return foundDirector;
+  // let foundDirector = directors.find( ( eachDirector ) => {
+  //   if ( eachDirector.director === eachDirector.director)
+  //   return true;
+  // })
+  return directors;
 }
 
 console.log(getAllDirectors(movies));
